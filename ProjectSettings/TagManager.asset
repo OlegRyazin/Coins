@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Coin1
+    uniqueID: 912933111
+    locked: 0
+  - name: Coin2
+    uniqueID: 3562749429
+    locked: 0
+  - name: Coin3
+    uniqueID: 3989707595
+    locked: 0
+  - name: Coin4
+    uniqueID: 3373357761
+    locked: 0
+  - name: Coin5
+    uniqueID: 4180732117
+    locked: 0
+  - name: Coin6
+    uniqueID: 1718983447
+    locked: 0
+  - name: Coin7
+    uniqueID: 3459322799
+    locked: 0
+  - name: Coin8
+    uniqueID: 1284655043
+    locked: 0
+  - name: Coin9
+    uniqueID: 41786155
+    locked: 0
+  - name: Coin10
+    uniqueID: 1382300163
+    locked: 0
+  - name: Line
+    uniqueID: 2534498471
+    locked: 0
+  - name: Coin11
+    uniqueID: 2347195183
+    locked: 0

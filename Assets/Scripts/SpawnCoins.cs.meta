@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0acfb373716cb2d4689f9a2d4de66289
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CopperCoin: {fileID: 1222577480396059759, guid: f0798e792f896c940bb5894b75085f7e, type: 3}
+  - SilverCoin: {fileID: 1222577480396059759, guid: c343a893fa4b5d148867d047ef224ec7, type: 3}
+  - GoldCoin: {fileID: 1222577480396059759, guid: 7378c686ef7624d47ad1e64a6c1a7d05, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
