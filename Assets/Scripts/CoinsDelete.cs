@@ -121,15 +121,15 @@ public class CoinsDelete : MonoBehaviour, IPointerClickHandler
             }
             if (gameObject.name == "CopperCoinOnTable(Clone)")
             {
-                SpawnCoins.countCopperCoin++;
+                SpawnCoins.CountCopperCoin++;
             }
             if (gameObject.name == "SilverCoinOnTable(Clone)")
             {
-                SpawnCoins.countSilverCoin++;
+                SpawnCoins.CountSilverCoin++;
             }
             if (gameObject.name == "GoldCoinOnTable(Clone)")
             {
-                SpawnCoins.countGoldCoin++;
+                SpawnCoins.CountGoldCoin++;
             }
             Destroy(gameObject);
         }

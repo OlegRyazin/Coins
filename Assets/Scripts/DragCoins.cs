@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DragCoins : MonoBehaviour
+public class DragCoins : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public LineRenderer line;
     private Vector3 pointScreen;
@@ -19,19 +19,19 @@ public class DragCoins : MonoBehaviour
     bool coinHavePlace = false;
     bool coinHaveBase = false;
 
-    void OnMouseDown()
+    public void OnBeginDrag(PointerEventData eventData)
     {
         pointScreen = Camera.main.WorldToScreenPoint(gameObject.transform.position);
         offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, pointScreen.z));
     }
 
-    void OnMouseDrag()
+    public void OnDrag(PointerEventData eventData)
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, pointScreen.z);
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
         transform.position = new Vector3(curPosition.x, 0.2f, curPosition.y * 5f - 7f);
     }
-    void OnMouseUp()
+    public void OnEndDrag(PointerEventData eventData)
     {
         if(createCoin)
         {          
